@@ -72,7 +72,7 @@ console.log(term);
     return (
       <div className='container'>
         <div className="col-md-offset-2 col-md-10">
-          <h3>Mortgage Calculator</h3>
+        <h3>Mortgage Calculator</h3>
             <hr />
           </div>
           <form className="form-horizontal" onSubmit={this.calculate}>

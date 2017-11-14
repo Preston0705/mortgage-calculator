@@ -1,5 +1,10 @@
 import React from 'react';
 
+var backgroundStyle = {
+  background: 'linear-gradient(to right,  #007991, #78ffd6)',
+  width: '99.99987654321%' 
+};
+
 export default class App extends React.Component {
   constructor(props) {
     super(props);
@@ -70,7 +75,7 @@ console.log(term);
 
   render() {
     return (
-      <div className='container'>
+      <div className='container' style = {backgroundStyle}>
         <div className="col-md-offset-2 col-md-10">
         <h3>Mortgage Calculator</h3>
             <hr />

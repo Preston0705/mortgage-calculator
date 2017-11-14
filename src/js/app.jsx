@@ -2,7 +2,8 @@ import React from 'react';
 
 var backgroundStyle = {
   background: 'linear-gradient(to right,  #007991, #78ffd6)',
-  width: '99.99987654321%' 
+  width: '99.99987654321%',
+  height: '1000px',
 };
 
 export default class App extends React.Component {
